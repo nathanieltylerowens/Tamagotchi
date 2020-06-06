@@ -1,6 +1,30 @@
-// @import "~bootstrap/scss/bootstrap";
-// @import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Source+Code+Pro:wght@600&display=swap');
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
 
-body {
-background-color: whitesmoke;
+html, body, #app {
+background-color: white;
+height: 100%;
+min-height: 100px;
+margin: 0;
+color: #008BF8;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bungee', cursive;
+}
+
+#app {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.quad {
+    text-align: center;
+    height: 50%;
+    width: 50%;
+}
+button{
+    font-family: 'Source Code Pro', monospace;
+    background: transparent;
+    color: #008BF8;
 }
