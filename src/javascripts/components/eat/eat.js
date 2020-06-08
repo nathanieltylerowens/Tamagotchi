@@ -7,7 +7,7 @@ const eatFood = () => {
   const domstring = `
     <h1>Eat!</h1>
     <h2>Fullness Level: ${full}</h2>
-    <button class="healthy">Lettuce</button><button class="junk">Oreos</button>`;
+    <button class="healthy">Lettuce!</button><button class="junk">Oreos!</button>`;
   utils.printToDom('#eat', domstring);
 };
 

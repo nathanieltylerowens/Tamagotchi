@@ -7,7 +7,7 @@ const sleep = () => {
   const domstring = `
     <h1>Sleep!</h1>
     <h2>Energy Level: ${fun}</h2>
-    <button class="nap">Nap</button><button class="slumber">Slumber</button>`;
+    <button class="nap">Nap!</button><button class="slumber">Slumber!</button>`;
   utils.printToDom('#sleep', domstring);
 };
 

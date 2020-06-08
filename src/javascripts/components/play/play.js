@@ -8,7 +8,7 @@ const playFun = () => {
   const domstring = `
     <h1>Play!</h1>
     <h2>Happiness Level: ${fun}</h2>
-    <button class="friends">Playing with Friends</button><button class="read">Read a Book</button>`;
+    <button class="friends">Playing with Friends!</button><button class="read">Read a Book!</button>`;
   utils.printToDom('#play', domstring);
 };
 
